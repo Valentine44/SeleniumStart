@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25679" started-at="2017-06-13T11:15:46Z" finished-at="2017-06-13T11:16:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25679" started-at="2017-06-13T11:15:46Z" finished-at="2017-06-13T11:16:11Z">
+      <class name="by.epam.atmentoring.selenium1.GmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="setUp" is-config="true" duration-ms="2432" started-at="2017-06-13T14:15:46Z" finished-at="2017-06-13T14:15:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openGmailTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="openGmailTest" duration-ms="1148" started-at="2017-06-13T14:15:48Z" finished-at="2017-06-13T14:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGmailTest -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="logInTest" duration-ms="10302" started-at="2017-06-13T14:15:49Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.openGmailTest" finished-at="2017-06-13T14:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="createEmailTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="createEmailTest" duration-ms="3360" started-at="2017-06-13T14:16:00Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.logInTest" finished-at="2017-06-13T14:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmailTest -->
+        <test-method status="PASS" signature="saveAsDraftTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="saveAsDraftTest" duration-ms="2336" started-at="2017-06-13T14:16:03Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.createEmailTest" finished-at="2017-06-13T14:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAsDraftTest -->
+        <test-method status="PASS" signature="openDraftTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="openDraftTest" duration-ms="387" started-at="2017-06-13T14:16:05Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.saveAsDraftTest" finished-at="2017-06-13T14:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDraftTest -->
+        <test-method status="PASS" signature="sendEmailTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="sendEmailTest" duration-ms="3081" started-at="2017-06-13T14:16:06Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.openDraftTest" finished-at="2017-06-13T14:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="logOutTest" duration-ms="1705" started-at="2017-06-13T14:16:09Z" depends-on-methods="by.epam.atmentoring.selenium1.GmailTest.sendEmailTest" finished-at="2017-06-13T14:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.selenium1.GmailTest@26be92ad]" name="tearDown" is-config="true" duration-ms="911" started-at="2017-06-13T14:16:10Z" finished-at="2017-06-13T14:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.selenium1.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="by.epam.atmentoring.selenium1.GmailTest">
+        <methods>
+          <include name="saveAsDraftTest"/>
+          <include name="setUp"/>
+          <include name="openGmailTest"/>
+          <include name="sendEmailTest"/>
+          <include name="tearDown"/>
+          <include name="createEmailTest"/>
+          <include name="openDraftTest"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.selenium1.GmailTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
